@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Dart Debugger",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",  // Adjust this path to your Dart entry point
+      "args": [],                  // Optional: Add command-line arguments if needed
+      "cwd": "${workspaceFolder}",  // Use the workspace folder as the current working directory
+      "externalConsole": false,     // Set to true if you want to use an external console
+      "debugSdkLibraries": true,    // Optional: Debug SDK libraries if needed
+      "vmAdditionalArgs": [],       // Optional: Additional VM arguments
+      "sourceMapPathOverrides": {}, // Optional: Override source map paths if necessary
+      "flutterMode": false,        // Set to true if debugging a Flutter project
+      "useFlutterStructuredErrors": true, // Optional: Use structured errors in Flutter projects
+      "console": "terminal",       // Use integrated terminal for console output
+      "showMemoryUsage": true      // Optional: Show memory usage
+    }
+  ]
+}
